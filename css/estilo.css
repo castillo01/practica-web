@@ -28,11 +28,33 @@
     align-items: center;
 }
 
-.itemNavegacion{
+.itemNavegacion {
     display: inline-block;
     margin: 5px;
 }
 
+/*SECCIONES DEL MAIN*/
+
+
+
+/*Contenedor de articulos y textos*/
+.contenedorPadre {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contenedorArticulos {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border: 1px solid #000;
+    width: 250px;
+}
+
+.contenedorTexto {
+    padding: 15px;
+    text-align: center;
+}
 
 
 /*TEXTOS*/
@@ -43,19 +65,26 @@ h1 {
     font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+
 .itemNavegacion a {
     text-decoration: none;
     color: white;
     font-size: 1rem;
     font-family: 'Roboto', sans-serif;
-    
+
 
 }
 
 /*PRODUCTOS*/
 
 .remeras {
-    width: 250px;
+    width: 100%;
+    height: auto;
 }
 
 @media (min-width:350px) and (max-width:450px) {
